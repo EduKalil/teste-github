@@ -14,4 +14,4 @@ let dados = [
         descricao: "Ginasta brasileira, Rebeca Andrade conquistou o coração dos brasileiros com suas performances impecáveis. Medalhista olímpica, ela é um exemplo de determinação e superação.",
         link: "https://pt.wikipedia.org/wiki/Rebeca_Andrade" 
     }
-]
+];
