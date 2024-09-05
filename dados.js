@@ -15,9 +15,3 @@ let dados = [
         link: "https://pt.wikipedia.org/wiki/Rebeca_Andrade" 
     }
 ]
-
-let rayssa = {
-    titulo : "Rayssa Leal",
-    descricao : "A skatista mirim que encantou o mundo. Rayssa Leal, conhecida como 'Fadinha', é uma das maiores promessas do skate mundial. Com apenas [idade], ela já conquistou diversos títulos e se tornou um ícone para as novas gerações.",
-    link : "https://pt.wikipedia.org/wiki/Rayssa_Leal"
-}
