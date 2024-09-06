@@ -5,8 +5,8 @@ function pesquisar() {
     let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
     // se campoPesquisa for uma string sem nada 
-    if (campoPesquisa == "") {
-      section.innerHTML = "<p>Nada foi encontrado</p>"
+    if (!campoPesquisa) {
+      section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um atleta</p>"
       return
     }
   
@@ -35,12 +35,11 @@ function pesquisar() {
       `;
       } 
 
+    }
       if (!resultados) {
         resultados = "<p>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>"
       }
       
-    }
-  
     // Atribui os resultados gerados ao conteúdo da seção
     section.innerHTML = resultados;
   }
